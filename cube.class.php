@@ -62,7 +62,7 @@ class x99
 					$result=$result.$abc[$bukva[$x]];
 				}
 			}
-		return($result);
+		return(ucfirst(mb_strtolower($result, 'UTF-8')));
 		}
 
 }
